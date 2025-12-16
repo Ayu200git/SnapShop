@@ -1,12 +1,6 @@
 {
   "version": 2,
   "name": "snapshop-live",
-  "functions": {
-    "api/index.js": {
-      "memory": 1024,
-      "maxDuration": 30
-    }
-  },
   "builds": [
     {
       "src": "api/index.js",
