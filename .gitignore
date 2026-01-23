@@ -1,6 +1,4 @@
 # Environment variables - NEVER commit
-.env
-.env.local
 .env.*.local
 
 # Node modules
@@ -16,7 +14,6 @@ frontend/dist/
 frontend/build/
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -42,3 +39,7 @@ Thumbs.db
 
 # Vercel
 .vercel/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
