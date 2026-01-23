@@ -27,7 +27,8 @@ const Login: React.FC = () => {
   return (
     <div className="flex justify-center items-center min-h-[80vh]">
       <form onSubmit={handleSubmit} className="surface rounded-2xl px-8 pt-8 pb-8 w-96">
-        <h2 className="text-2xl font-bold mb-6 text-center brand">Login</h2>
+        <h2 className="text-2xl font-bold mb-6 text-center brand">Login Here</h2>
+        <p className="text-sm font-normal mb-2 text-center">Login to connect with us...</p>
 
         <input
           type="text"
