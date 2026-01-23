@@ -28,7 +28,7 @@ const AdminDashboard = () => {
 
   return (
     <div className="p-6 max-w-7xl mx-auto">
-      <h1 className="text-3xl font-bold mb-6">Admin Dashboard</h1>
+      <h1 className="text-3xl font-bold mb-6">Admin Dashboard!!</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
         <div className={cardClass} onClick={() => navigate("/users")}>
           <Users size={36} className="text-blue-500" />

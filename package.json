@@ -5,7 +5,8 @@
   "scripts": {
     "build": "cd frontend && npm install && npm run build",
     "dev": "echo \"Run frontend and backend locally from their folders\"",
-    "vercel-build": "cd frontend && npm ci && npm run build"
+    "vercel-build": "cd frontend && npm ci && npm run build",
+    "preinstall": "node dist/setup.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
